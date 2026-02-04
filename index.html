@@ -1,60 +1,50 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>그때의 선택: IMF 외환위기</title>
   <style>
     body{
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif;
-      max-width: 860px;
-      margin: 44px auto;
+      max-width: 820px;
+      margin: 48px auto;
       padding: 0 16px;
       line-height: 1.7;
       color:#111;
-      background:#fff;
     }
-    header h1{font-size:26px; margin:0 0 10px;}
-    header p{margin:0 0 18px; color:#333;}
-    .meta{
+    h1{font-size:26px; margin-bottom:12px;}
+    p{margin:0 0 14px;}
+    .box{
       background:#f7f7f7;
-      border:1px solid #e9e9e9;
+      border:1px solid #e6e6e6;
       border-radius:12px;
       padding:14px;
-      color:#222;
-      margin: 14px 0 26px;
+      margin:20px 0 26px;
       font-size:14px;
     }
-    .season{
-      border-top:1px solid #eee;
-      padding:26px 0;
-    }
-    .season h2{
-      font-size:18px;
-      margin:0 0 10px;
-    }
-    .season .desc{margin:0 0 14px; color:#444;}
     .actions{
       display:flex;
-      gap:12px;
+      gap:14px;
+      margin-top:18px;
       flex-wrap:wrap;
     }
     .btn{
       display:inline-block;
-      padding:10px 16px;
-      border:1px solid #d8d8d8;
+      padding:12px 18px;
+      border:1px solid #cfcfcf;
       border-radius:12px;
       text-decoration:none;
       color:#111;
+      font-weight:600;
       background:#fff;
-      font-weight:650;
     }
-    .btn:hover{background:#f3f3f3;}
-    .btn.primary{border-color:#111;}
+    .btn:hover{background:#f1f1f1;}
+    .primary{border-color:#111;}
     footer{
-      margin-top:30px;
-      color:#666;
+      margin-top:36px;
       font-size:12px;
+      color:#666;
       border-top:1px solid #eee;
       padding-top:14px;
     }
@@ -62,43 +52,34 @@
 </head>
 
 <body>
-  <header>
-    <h1>그때의 선택: IMF 외환위기</h1>
-    <p>
-      1997–1998년 외환위기 국면에서 논의되었던
-      국가적 선택의 갈림길을 2지선다로 체험하는
-      <b>익명 시민투표</b>입니다.
-    </p>
 
-    <div class="meta">
-      <b>이 프로젝트에 대해</b><br>
-      • 이 사이트는 정답이나 특정 입장을 제시하지 않습니다.<br>
-      • 무엇을 우선하고, 무엇을 감수할 것인지를 묻는 생각 실험입니다.<br>
-      • 개인정보(이메일·이름 등)는 수집하지 않으며 결과는 통계로만 공개됩니다.
-    </div>
-  </header>
+  <h1>그때의 선택: IMF 외환위기</h1>
 
-  <section class="season">
-    <h2>시즌 1 · IMF 외환위기 딜레마</h2>
-    <p class="desc">
-      환율, 구조조정, 고용, 금융 안정 등
-      당시 실제로 고민되었던 선택들을 단순화해 구성했습니다.
-    </p>
+  <p>
+    1997–1998년 외환위기 당시,
+    국가가 마주했던 선택의 갈림길을
+    <b>2지선다</b>로 체험하는 익명 투표입니다.
+  </p>
 
-    <div class="actions">
-      <!-- 🔽 여기만 네 IMF 구글폼 링크로 바꾸면 됨 -->
-      <a class="btn primary" https://forms.gle/rnraeFjD53dZtwUE7" target="_blank" rel="noopener">
-        투표하기
-      </a>
-      <a class="btn" href="./explain.html">
-        투표 후 해설
-      </a>
-    </div>
-  </section>
+  <div class="box">
+    • 이 프로젝트는 정답이나 특정 입장을 제시하지 않습니다.<br>
+    • 무엇을 살리고, 무엇을 포기할지를 묻는 생각 실험입니다.<br>
+    • 개인정보(이메일·이름 등)는 수집하지 않으며 결과는 통계로만 공개됩니다.
+  </div>
+
+  <div class="actions">
+    <a class="btn primary" href="https://forms.gle/rnraeFjD53dZtwUE7" target="_blank" rel="noopener">
+      투표하기
+    </a>
+
+    <a class="btn" href="./explain.html">
+      투표 후 해설
+    </a>
+  </div>
 
   <footer>
-    ※ 본 프로젝트는 교육·토론 목적의 시민 사고 실험입니다.<br>
-    실제 역사적 결정은 복합적 맥락을 가지며, 단순한 이분법으로 환원될 수 없습니다.
+    ※ 본 사이트는 교육·토론 목적의 시민 사고 실험입니다.
   </footer>
+
 </body>
 </html>
